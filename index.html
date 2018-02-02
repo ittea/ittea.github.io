@@ -18,6 +18,7 @@
 		<!-- Подключаем шрифты -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -30,14 +31,14 @@
  		<div class="container">
  			<div class="row">
  				<div class="col-lg-7">
- 					<img class="header-img" src="img/main-img.png" alt="Монитор">
+ 					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
  				</div>
  				<!-- /.col-7 -->
  				<div class="col-lg-5">
- 					<p class="header-pretitle">Веб-разработчик/Разработчик игр</p>
- 					<h1 class="header-title">Роланд Фридеманис</h1>
- 					<p class="header-subtitle">Frontend и Backend разработка<br>Создание игр на C++</p>
-					<div class="header-btn-block">
+ 					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик/Разработчик игр</p>
+ 					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Роланд Фридеманис</h1>
+ 					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Frontend и Backend разработка<br>Создание игр на C++</p>
+					<div class="header-btn-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<a href="https://vk.me/itishnik2004" class="header-button">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -51,7 +52,7 @@
 
  	<section class="portfolio">
  		<div class="container">
- 			<div class="portfolio-block">
+ 			<div class="portfolio-block wow fadeIn">
  			<h2 class="portfolio-title">Портфолио</h2>
  			<p class="portfolio-subtitle">Мои работы</p>
  		<div class="row">
@@ -89,9 +90,9 @@
  				<div class="col-md-4">
  					<div class="social-block">
  						<p>Подпишитесь:</p>
- 						<a href="https://www.facebook.com/rolands.fridemanis.3"><img src="img/facebook-logo-button.png" alt="Facebook"> </a>
- 						<a href="https://vk.com/itishnik2004"> <img src="img/vk-social-logotype.png" alt="Vk"></a>
- 						<a href="https://youtube.com"> <img src="img/youtube-symbol.png" alt="Youtube"></a>
+ 						<a href="https://www.facebook.com/rolands.fridemanis.3"><img class="wow bounceInDown" src="img/facebook-logo-button.png" data-wow-delay="0.1s" alt="Facebook"> </a>
+ 						<a href="https://vk.com/itishnik2004"> <img class="wow bounceInDown" src="img/vk-social-logotype.png" data-wow-delay="0.2s" alt="Vk"></a>
+ 						<a href="https://youtube.com"> <img class="wow bounceInDown" data-wow-delay="0.3s" src="img/youtube-symbol.png" alt="Youtube"></a>
  					</div>
  				</div>
  				<div class="col-md-4">
@@ -105,6 +106,10 @@
  		</div>
  		<!-- /.container -->
  	</footer>
-
+	
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
