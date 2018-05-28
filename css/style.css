@@ -213,6 +213,10 @@ footer{
 	}
 }
 
+.coment {
+	color: gray;
+}
+
 @media (max-width: 768px){
 	.portfolio-col-1{
 		padding-left: 20px;
